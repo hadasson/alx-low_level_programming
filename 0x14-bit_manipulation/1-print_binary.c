@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 
 	for (i = 63; i >= 0; i--)
 	{
-	 	current = n >> i;
+		current = n >> i;
 
 		if (current & 1)
 		{
@@ -22,5 +22,5 @@ void print_binary(unsigned long int n)
 		_Putchar('0');
 	}
 	if (!count)
-		_putchar ('0');
+		_Putchar ('0');
 }
